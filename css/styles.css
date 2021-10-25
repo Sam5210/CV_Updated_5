@@ -1,0 +1,427 @@
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+a:visited{
+    color: tomato;
+}
+body{
+    background-color: white;
+    font-family: "Raleway", "sans-serif";
+    font-size: 2.3rem;
+    height: 100%;
+    text-align: center;
+    line-height: 2.7rem;
+}
+.bold{
+    font-weight: bold;
+}
+.blue-background{
+    padding: 5% 7%;
+    background-color: royalblue;
+}
+#Car-Ford-GT{
+    max-width: 30rem;
+    width: 40%;
+    height: auto;
+}
+.clickable{
+    margin: 3% 7%;
+    padding: 5% 2%;
+    border-color: orangered;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.12rem;
+    border-radius: 1rem;
+    max-width: 1730px;
+    width: auto;
+}
+.clickable:hover{
+    cursor: pointer;
+    animation-name: expand;
+    animation-duration: 0.3s;
+    background-color: white;
+    transition: 0.3s;
+}
+.cloud_left{
+    position: absolute;
+    top: 5%;
+    left: -5%;
+    height: 10%;
+    animation-name: move_cloud_from_left;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+}
+.cloud_right{
+    position: absolute;
+    top: 0%;
+    right: -5%;
+    height: 20%;
+    animation-name: move_cloud_from_right;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+}
+#copyright{
+    font-size: 60%;
+}
+.custom_container{
+    background-color: royalblue;
+    padding: 10% 3% 8%;
+    max-width: 1730px;
+    width: auto;
+}
+.custom_container, #container1, .CV_container, #Car-Ford-GT, .icon{
+    position: relative;
+    border-radius: 1rem;
+}
+.custom_container, #container1, .CV_container{
+    margin: 4%;
+}
+#container1{
+    background-color: moccasin;
+}
+.CV_container{
+    background-color: skyblue;
+    padding: 3%;
+}
+.CV-intro{
+    padding: 2% 6%;
+    color: white;
+}
+.CV-page-h1, .CV-page-h2{
+    color: orange;
+}
+.CV-page-h3{
+    color: orangered;
+}
+.delimit hr{
+    border-top-color: orangered;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.fa-facebook-f, .fa-instagram, .fa-home{
+    color: royalblue;
+}
+#footer{
+    line-height: 1.5;
+}
+.footer-icon{
+    border: none;
+}
+.gameplay-button{
+    font-size: 150%;
+    font-weight: bold;
+
+}
+hr{
+    border-top-color: orangered;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-style: none;
+    border-top-style: dashed;
+    /* border-top-color: darkslategrey; */
+    border-width: 0.5rem;
+    width: 10rem;
+}
+h1{
+    font-family: "Tangerine", serif;
+}
+.home-page-h1, .CV-page-h1{
+    font-weight: bold;
+    font-size: 7rem;
+}
+h2{
+    font-family: "Tangerine", serif;
+}
+.home-page-h2, .CV-page-h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 0.9;
+}
+.home-page-h1, .home-page-h2{
+    color: orange;
+}
+h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+h4{
+    font-size: 125%;
+}
+.hillside-background{
+    background-image:url(images/Hill-side.jpg);
+}
+.icon {
+    text-decoration: none;
+    background-color: mediumturquoise;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.6rem;
+}
+.icon:hover{
+    animation-name: expand_icon;
+    animation-duration: 0.3s;
+}
+img.skills-icons{
+    width: 10%;
+}
+.intro_paragraph{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.label{
+    display: none;
+}
+.lake-background{
+    background-image: url(images/Lake.jpg);
+}
+.lemonchiffon-background{
+    padding: 10% 7%;
+    background-color: lemonchiffon;
+}
+li{
+    list-style: none;
+}
+.lightblue-background{
+    padding: 10% 7%;
+    background-color: cornflowerblue;
+}
+.main-page-intro{
+    padding: 0% 5%;
+}
+.mediumpurple-background{
+    padding: 10% 7%;
+    background-color: #D6C8FF;
+}
+.moccasin-background{
+    padding: 5% 7%;
+    background-color: moccasin;
+}
+.orangered-background{
+    background-color: orangered;
+}
+p{
+    font-weight: lighter;
+}
+.paleturquoise-background{
+    padding: 10% 7%;
+    background-color: paleturquoise;
+}
+.plum-background{
+    padding: 10% 7%;
+    background-color:#C79ECF;
+}
+.purple-background{
+    padding: 10% 7%;
+    background-color: #7E6BC4;
+}
+#profile_image{
+    max-width: 30%;
+    border-radius: 100%; 
+    vertical-align: -400%; 
+}
+.river-background{
+    background-image: url(images/River04.jpg);
+}
+#red-black-tree{
+    float: left;
+    left: 2rem;
+    margin-right: 3rem;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+#red-black-tree-header{
+    line-height: 0.25;
+    max-width: 100%;
+    height: auto;
+}
+.skillset{
+    text-decoration: underline;
+}
+.text-black{
+    color: black;
+    padding: 2% 6%;
+}
+.text-orange{
+    color: orange;
+    padding: 2% 6%;
+}
+.text-royalblue{
+    color: royalblue;
+}
+.text-springgreen{
+    color: springgreen;
+    padding: 2% 6%;
+}
+.text-yellow{
+    color: yellow;
+    padding: 2% 6%;
+}
+.text-white{
+    color:white;
+    padding: 2% 6%;
+}
+#trees1{
+    right: 25%;
+}
+#trees2{
+    left: 25%;
+}
+#trees1, #trees2{
+    position: relative;
+    width: 20%;
+    vertical-align: middle;
+}
+.turquoise-background{
+    padding: 10% 7%;
+    background-color: turquoise;
+}
+.underline{
+    text-decoration: underline;
+}
+#Video-Game-Project-Icon{
+    float: right;
+    right: 2rem;
+    max-width: 40rem;
+    width: 60%;
+    height: auto;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    border-radius: 1rem;
+}
+.video-game-text{
+    text-align: left;
+}
+.valley-background{
+    padding: 5% 7%;
+    background-image: url(images/Valley.jpg);
+}
+.work-experience-project-button{
+    font-weight: bold;
+}
+.hillside-background, .lake-background, .river-background, .valley-background{
+    /*parallax scrolling effect*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 15% 0%;
+    overflow: hidden;
+}
+.white-background{
+    padding: 10% 7%;
+    background-color: white;
+}
+@keyframes expand {
+    50% {transform: scaleX(1.02) scaleY(1.1);}
+    100% {
+        transform: scaleX(1) scaleY(1);
+    }   
+}
+@keyframes expand_icon {
+    50% {transform: scaleX(1.3) scaleY(1.3);}
+    100% {transform: scaleX(1) scaleY(1);}
+}
+@keyframes move_cloud_from_left {
+    0% {transform:translateX(0);}
+    45%{transform: translateX(200%);}
+    100% {transform:translateX(0);}
+}
+@keyframes move_cloud_from_right {
+    0% {transform:translateX(0);}
+    45%{transform: translateX(-200%);}
+    100% {transform:translateX(0);}
+}
+@media (max-width: 1280px){
+    #Car-Ford-GT{
+        float:none;
+        margin-bottom: 5%;
+        max-width: 30rem;
+        width: 80%;
+        height: auto;
+    }
+    /*.CV-intro{
+        color: black;
+    }*/
+    img.skills-icons{
+        width: 30%;
+    }
+    li, .intro_paragraph, p{
+        font-size: 70%;
+        line-height: 1.5;
+    }
+    /*.intro_paragraph{
+        color: black;
+    }*/
+    .home-page-h1, .CV-page-h1{
+        font-size: 230%;
+        line-height: 0.8;
+    }
+    .home-page-h2, .CV-page-h2{
+        font-size: 180%;
+        line-height: 1;
+    }
+    h3{
+        font-size: 90%;
+        line-height: 1;
+    }
+    /*.hillside-background{
+        background-color: paleturquoise;
+    }*/
+    .lightblue-background{
+        padding-top: 20%;
+    }
+    #red-black-tree{
+        float:none;
+        margin-bottom: 10%;
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+    .skill{
+        font-size: 75%;
+    }
+    #Video-Game-Project-Icon{
+        float: none;
+        left: 0;
+        margin-bottom: 5%;
+        max-width: 40rem;
+        width: 85%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 1rem;
+    }
+    .video-game-text{
+        text-align: center;
+    }
+    td{
+        font-size: 70%;
+        line-height: 1.2;
+    }
+    /*.valley-background{
+        background-color: moccasin;
+    }*/
+    .white-background{
+        padding-top: 20%;
+    }
+    /*.lake-background{
+        background-color: moccasin;
+    }
+    .river-background{
+        background-color: turquoise;
+    }*/
+    .hillside-background, .lake-background, .river-background, .valley-background{
+        background-attachment: scroll;
+    }
+}

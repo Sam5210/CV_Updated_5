@@ -1,0 +1,21 @@
+attributes:
+clouds from freepik
+vines from flaticon
+trees from freepik
+background images from nature 4k wallpapers (https://wallpaperaccess.com/4k-nature)
+Drawing image in CV.html
+
+web-design icon from free icons library
+Game Development by Vectors Market from the Noun Project
+
+3D Modeling icon from flaticon 
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Chinese icon from flaticon
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+English icon from Flaticon
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+French icon from Flaticon
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

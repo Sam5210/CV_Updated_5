@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Yang</title>
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Pacifico&family=Raleway:wght@200&family=Tangerine&display=swap">
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Samuel Yang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_collapse" aria-controls="nav_collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav_collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#footer">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="CV.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- profile -->
+    <section class="valley-background">
+        <div>
+            <div>
+                <!-- <img src="images/2D_Clouds.png" alt="Clouds" id="2d clouds" class="cloud_left">
+                <img src="images/2D_Clouds_02.png" alt="Clouds" id="2d clouds" class="cloud_right"> -->
+                <img src="images/profile_image.jpg" alt="Samuel's profile picture" id="profile_image">
+                <br><br>
+                <div class="main-page-intro">
+                    <h1 class="home-page-h1">Hello ! I'm Samuel Yang</h1>
+                    <p class="intro_paragraph">I'm a C++ and python programmer, game developper, and 3D artist.</p>
+                    <p class="intro_paragraph"> I love building systems and making beautiful worlds.</p>
+                </div>
+                <br>
+                <!-- <img id="trees1" src="images/Line_of_Trees.png" alt="Trees">
+                <img id="trees2" src="images/Line_of_Trees_2.png" alt="Trees"> -->
+            </div>
+        </div>
+    </section>
+    <!-- Red Black Tree showcase -->
+    <section class="lemonchiffon-background">
+        <div>
+            <img id="red-black-tree" src="images/Red-black_tree.png" alt="Red Black Tree">
+            <h2 class="home-page-h2">Red Black Tree</h2>
+            <p> 
+                I designed my own red black tree algorithm in C++, with functions such as inserting, deleting
+                and searching data.
+            </p>
+        </div>
+    <!-- Ford GT 2018 showcase -->
+        <br><br><hr><br><br>
+        <div>
+            <img id="Car-Ford-GT" src="images/Ford_GT.jpg" alt="Car 3D model">
+            <br><br>
+            <h2 class="home-page-h2">Ford GT 2018 Model</h2>
+            <p>I modelled this sports car from scratch using Blender as my software.</p>
+        </div>
+        <br><br><hr><br><br>
+    <!-- Video Game Project showcase -->
+        <!-- <div  onclick="location.href='https://www.youtube.com/watch?v=Ez_1aw0CrH8'" class="clickable"> -->
+        <div>
+            <div>
+                <img id="Video-Game-Project-Icon" src="images/Video_Game_Project.jpg" alt="Video Game Project">
+                <h2 class="home-page-h2 video-game-text" >Video Game Project - The Journey of Life</h2>
+                <p class="video-game-text">I have been developping this game project using the Unreal Engine 4.</p>
+                <!-- <strong style="display:block; clear:left; margin-top: 5%;">Please click this box to see the video of the project demo.</strong> -->
+                <button type="button" class="btn btn-warning btn-lg">
+                    <a href="https://www.youtube.com/watch?v=Ez_1aw0CrH8" style="text-decoration:none;">
+                    <span class="gameplay-button">Watch Gameplay</span>
+                    </a>
+                </button>
+                <br><br><br><br>
+            </div>
+        </div>
+    </section>
+    <section class="hillside-background">
+        <br><br>
+    <!-- CV showcase -->
+        <div onclick="location.href='CV.html'" class="clickable">
+            <h1 class="home-page-h1">My CV</h1>
+        </div>
+        <br><br>
+    </section>
+    <!-- footer -->
+    <footer class="turquoise-background">
+        <div id="footer">
+            <button type="button" class="btn btn-outline-light btn-md footer-icon">
+                <a href="https://www.facebook.com/profile.php?id=100003245864132">
+                    <span class="fab fa-facebook-f fa-lg"></span>
+                </a>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-md footer-icon">
+                <a href="https://www.instagram.com/samuel_yang_social/">
+                    <span class="fab fa-instagram fa-lg"></span>
+                </a>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-md footer-icon">
+                <a href="index.html">
+                    <span class="fas fa-home fa-lg"></span>
+                </a>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-sm">
+                <a href="mailto:samuelyang5210@gmail.com" class="contact-me-button">
+                    <span class="contact-me-button">CONTACT ME</span>
+                </a>
+            </button>
+            <p id="copyright">© 2021 Samuel Yang.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2bd9cd6d32.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
